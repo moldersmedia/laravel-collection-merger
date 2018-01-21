@@ -1,0 +1,32 @@
+{
+    "name": "moldersmedia/collection-merger",
+    "description": "Merge Laravel collections quick and easily",
+    "type": "laravel-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donny5300",
+            "email": "donny@moldersmedia.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/contracts": "~5.5.0",
+        "illuminate/support": "~5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoldersMedia\\CollectionMerger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MoldersMedia\\CollectionMerger\\Providers\\CollectionMergerServiceProvider"
+            ],
+            "aliases": {
+                "CollectionMerger": "MoldersMedia\\CollectionMerger\\Facades\\CollectionMerger"
+            }
+        }
+    }
+}
