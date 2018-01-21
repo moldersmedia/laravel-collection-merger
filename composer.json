@@ -1,5 +1,5 @@
 {
-    "name": "moldersmedia/collection-merger",
+    "name": "moldersmedia/laravel-collection-merger",
     "description": "Merge Laravel collections quick and easily",
     "type": "laravel-plugin",
     "license": "MIT",
